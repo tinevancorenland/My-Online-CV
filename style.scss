@@ -1,19 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Montserrat|Raleway|Roboto+Mono&display=swap");
+
+// Imported following font families:
+// font-family: 'Roboto Mono', monospace;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Inconsolata', monospace;
+
+//  Fonts
+$fontHeader: "Inconsolata", "Roboto-Mono", monospace;
+$fontText: "Raleway", "Montserrat", sans-serif;
+
+/* HSL colors */
+$colorDesire: hsla(355%, 78%, 56%, 1);
+$colorHoneydew: hsla(105%, 55%, 96%, 1);
+$colorLightblue: hsla(182%, 43%, 76%, 1);
+$colorQueenblue: hsla(203%, 39%, 44%, 1);
+$colorSpacecadet: hsla(215%, 50%, 23%, 1);
+
+/* RGB same colors */
+$colorDesire: rgba(230, 57, 70, 1);
+$colorHoneydew: rgba(241, 250, 238, 1);
+$colorLightblue: rgba(168, 218, 220, 1);
+$colorQueenblue: rgba(69, 123, 157, 1);
+$colorSpacecadet: rgba(29, 53, 87, 1);
+
+// General
+
 html {
   scroll-behavior: smooth;
 }
 
-.responsive-image {
-  width: 80%;
-  height: auto;
+body {
+  font-family: $fontText;
 }
 
-a {
+h4,
+h5,
+h6 {
+  font-family: $fontHeader;
+}
+
+.row {
+  margin-bottom: 2%;
+}
+
+// Nav
+
+.nav {
+  margin-bottom: 3%;
+}
+
+a.nav-link {
+  font-family: $fontHeader;
+  font-size: 24px;
+  padding: 2%;
+  margin: 5%;
+  color: $colorHoneydew;
+  background-color: $colorQueenblue;
   text-decoration: none;
 
-  :hover {
+  &:hover {
     opacity: 0.8;
   }
 }
+
+// leftColumnFirstRow
+
+#leftColumnFirstRow {
+  padding: 5%;
+  margin-bottom: 2%;
+  background-color: $colorQueenblue;
+  color: $colorHoneydew;
+}
+
+// Statement
+
+#statement {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: -20%;
+  z-index: 1;
+}
+
+// Picture
+
+.responsive-image {
+  width: 80%;
+  height: auto;
+  z-index: 0;
+}
+
+//  Experience
+
+#experience {
+  text-align: center;
+  h4 {
+    background-color: $colorQueenblue;
+    color: $colorHoneydew;
+  }
+}
+
+// Work
+
+.card {
+  margin: 2%;
+}
+
+// Footer
+
 ul {
   list-style: none;
   li {
