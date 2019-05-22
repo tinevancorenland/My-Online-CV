@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.responsive-image {
+  width: 80%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+
+  :hover {
+    opacity: 0.8;
+  }
+}
+ul {
+  list-style: none;
+  li {
+    align-items: center;
+    display: inline-block;
+  }
+}
