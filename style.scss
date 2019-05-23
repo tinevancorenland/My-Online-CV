@@ -10,19 +10,12 @@
 $fontHeader: "Inconsolata", "Roboto-Mono", monospace;
 $fontText: "Raleway", "Montserrat", sans-serif;
 
-/* HSL colors */
-$colorDesire: hsla(355%, 78%, 56%, 1);
-$colorHoneydew: hsla(105%, 55%, 96%, 1);
-$colorLightblue: hsla(182%, 43%, 76%, 1);
-$colorQueenblue: hsla(203%, 39%, 44%, 1);
-$colorSpacecadet: hsla(215%, 50%, 23%, 1);
-
-/* RGB same colors */
-$colorDesire: rgba(230, 57, 70, 1);
-$colorHoneydew: rgba(241, 250, 238, 1);
-$colorLightblue: rgba(168, 218, 220, 1);
-$colorQueenblue: rgba(69, 123, 157, 1);
-$colorSpacecadet: rgba(29, 53, 87, 1);
+$colorTineblue: #110dd7;
+$colorTinelight: #fffff0;
+$colorTinealmond: #efdecd;
+$colorTinedark: #2a3439;
+$colorTineroyalblue: #4169e1;
+$colorTineneonblue: #0000ff;
 
 // General
 
@@ -32,35 +25,55 @@ html {
 
 body {
   font-family: $fontText;
+  color: $colorTinedark;
 }
 
+.container-fluid {
+  background-color: $colorTinelight;
+}
+
+h3,
 h4,
 h5,
 h6 {
   font-family: $fontHeader;
+  color: $colorTineneonblue;
+  text-align: left;
+  margin-bottom: 0%;
+  font-size: 120%;
 }
 
 .row {
   margin-bottom: 2%;
 }
 
+a:hover {
+  opacity: 0.8;
+}
+
 // Nav
 
 .nav {
   margin-bottom: 3%;
+
+  a {
+    font-family: $fontHeader;
+    font-size: 3vw;
+    padding: 2%;
+    margin: 5%;
+    color: $colorTinelight;
+    background-color: $colorTineneonblue;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
 }
 
-a.nav-link {
-  font-family: $fontHeader;
-  font-size: 24px;
-  padding: 2%;
-  margin: 5%;
-  color: $colorHoneydew;
-  background-color: $colorQueenblue;
-  text-decoration: none;
-
-  &:hover {
-    opacity: 0.8;
+@media screen and (min-width: 1200px) {
+  a.nav-link {
+    font-size: 30px;
   }
 }
 
@@ -69,16 +82,18 @@ a.nav-link {
 #leftColumnFirstRow {
   padding: 5%;
   margin-bottom: 2%;
-  background-color: $colorQueenblue;
-  color: $colorHoneydew;
+  background-color: $colorTinealmond;
+  color: $colorTineneonblue;
+  border-radius: 10px;
 }
 
 // Statement
 
 #statement {
+  padding-left: 1%;
+  padding-right: 1%;
   text-align: center;
-  font-weight: bold;
-  margin-bottom: -20%;
+  margin-bottom: -15%;
   z-index: 1;
 }
 
@@ -90,28 +105,104 @@ a.nav-link {
   z-index: 0;
 }
 
+// Signature
+
+#signature {
+  margin-top: -18%;
+  padding-right: 4%;
+  z-index: 1;
+}
+
 //  Experience
 
 #experience {
-  text-align: center;
+  h3 {
+    color: $colorTineneonblue;
+    text-align: left;
+    font-size: 130%;
+    border-bottom: 1px solid $colorTineneonblue;
+    margin-bottom: 1%;
+  }
   h4 {
-    background-color: $colorQueenblue;
-    color: $colorHoneydew;
+    color: $colorTineneonblue;
+    text-align: left;
+    margin-bottom: 0%;
+    font-size: 120%;
+  }
+  h5 {
+    color: $colorTineneonblue;
+    text-align: left;
+    margin-bottom: 0%;
+    font-size: 120%;
+  }
+  h6 {
+    color: $colorTineneonblue;
+    text-align: left;
+    margin-bottom: 0%;
+    font-size: 100%;
+  }
+  p {
+    text-align: justify;
+    margin-bottom: 4%;
   }
 }
 
 // Work
 
+#work {
+  h3 {
+    color: $colorTineneonblue;
+    text-align: left;
+    font-size: 130%;
+    border-bottom: 1px solid $colorTineneonblue;
+    margin-bottom: 1%;
+  }
+}
+
 .card {
   margin: 2%;
+  padding: 1%;
+  border: 1px solid $colorTineneonblue;
+  .card-body {
+    background-color: $colorTinealmond;
+  }
+  h4 {
+    text-align: center;
+  }
+  a {
+    padding: 1.5% 40%;
+    background-color: $colorTineneonblue;
+    color: $colorTinelight;
+    border-radius: 10px;
+  }
 }
 
 // Footer
-
-ul {
-  list-style: none;
-  li {
-    align-items: center;
-    display: inline-block;
+.page-footer {
+  background-color: $colorTinealmond;
+  margin: 0;
+  padding: 10px 0;
+  p {
+    margin-bottom: 0;
+  }
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+    .contact-icons {
+      align-items: center;
+    }
+    li {
+      align-items: center;
+      display: inline-block;
+      a {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+        i {
+          color: $colorTineneonblue;
+          font-size: 125%;
+        }
+      }
+    }
   }
 }

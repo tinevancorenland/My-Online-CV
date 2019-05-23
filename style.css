@@ -1,53 +1,73 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata|Montserrat|Raleway|Roboto+Mono&display=swap");
-/* HSL colors */
-/* RGB same colors */
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "Raleway", "Montserrat", sans-serif;
+  color: #2a3439;
 }
 
+.container-fluid {
+  background-color: #fffff0;
+}
+
+h3,
 h4,
 h5,
 h6 {
   font-family: "Inconsolata", "Roboto-Mono", monospace;
+  color: #0000ff;
+  text-align: left;
+  margin-bottom: 0%;
+  font-size: 120%;
 }
 
 .row {
   margin-bottom: 2%;
 }
 
+a:hover {
+  opacity: 0.8;
+}
+
 .nav {
   margin-bottom: 3%;
 }
 
-a.nav-link {
+.nav a {
   font-family: "Inconsolata", "Roboto-Mono", monospace;
-  font-size: 24px;
+  font-size: 3vw;
   padding: 2%;
   margin: 5%;
-  color: #f1faee;
-  background-color: #457b9d;
+  color: #fffff0;
+  background-color: #0000ff;
   text-decoration: none;
 }
 
-a.nav-link:hover {
+.nav a:hover {
   opacity: 0.8;
+}
+
+@media screen and (min-width: 1200px) {
+  a.nav-link {
+    font-size: 30px;
+  }
 }
 
 #leftColumnFirstRow {
   padding: 5%;
   margin-bottom: 2%;
-  background-color: #457b9d;
-  color: #f1faee;
+  background-color: #efdecd;
+  color: #0000ff;
+  border-radius: 10px;
 }
 
 #statement {
+  padding-left: 1%;
+  padding-right: 1%;
   text-align: center;
-  font-weight: bold;
-  margin-bottom: -20%;
+  margin-bottom: -15%;
   z-index: 1;
 }
 
@@ -57,27 +77,111 @@ a.nav-link:hover {
   z-index: 0;
 }
 
-#experience {
-  text-align: center;
+#signature {
+  margin-top: -18%;
+  padding-right: 4%;
+  z-index: 1;
+}
+
+#experience h3 {
+  color: #0000ff;
+  text-align: left;
+  font-size: 130%;
+  border-bottom: 1px solid #0000ff;
+  margin-bottom: 1%;
 }
 
 #experience h4 {
-  background-color: #457b9d;
-  color: #f1faee;
+  color: #0000ff;
+  text-align: left;
+  margin-bottom: 0%;
+  font-size: 120%;
+}
+
+#experience h5 {
+  color: #0000ff;
+  text-align: left;
+  margin-bottom: 0%;
+  font-size: 120%;
+}
+
+#experience h6 {
+  color: #0000ff;
+  text-align: left;
+  margin-bottom: 0%;
+  font-size: 100%;
+}
+
+#experience p {
+  text-align: justify;
+  margin-bottom: 4%;
+}
+
+#work h3 {
+  color: #0000ff;
+  text-align: left;
+  font-size: 130%;
+  border-bottom: 1px solid #0000ff;
+  margin-bottom: 1%;
 }
 
 .card {
   margin: 2%;
+  padding: 1%;
+  border: 1px solid #0000ff;
 }
 
-ul {
+.card .card-body {
+  background-color: #efdecd;
+}
+
+.card h4 {
+  text-align: center;
+}
+
+.card a {
+  padding: 1.5% 40%;
+  background-color: #0000ff;
+  color: #fffff0;
+  border-radius: 10px;
+}
+
+.page-footer {
+  background-color: #efdecd;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.page-footer p {
+  margin-bottom: 0;
+}
+
+.page-footer ul {
   list-style: none;
+  margin-bottom: 0;
 }
 
-ul li {
+.page-footer ul .contact-icons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-footer ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   display: inline-block;
+}
+
+.page-footer ul li a {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.page-footer ul li a i {
+  color: #0000ff;
+  font-size: 125%;
 }
 /*# sourceMappingURL=style.css.map */
