@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,8EAA8E;AAE9E,SAAS;AAOT,SAAS",
+    "sources": [
+        "colorpalette.scss"
+    ],
+    "names": [],
+    "file": "colorpalette.css"
+}
