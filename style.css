@@ -116,6 +116,10 @@ a:hover {
   margin-bottom: 4%;
 }
 
+#experience p .fab {
+  text-align: left;
+}
+
 #work h3 {
   color: #0000ff;
   text-align: left;
@@ -158,6 +162,7 @@ a:hover {
 .page-footer ul {
   list-style: none;
   margin-bottom: 0;
+  padding-left: 0;
 }
 
 .page-footer ul .contact-icons {

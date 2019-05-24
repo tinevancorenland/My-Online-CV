@@ -144,6 +144,10 @@ a:hover {
   p {
     text-align: justify;
     margin-bottom: 4%;
+
+    .fab {
+      text-align: left;
+    }
   }
 }
 
@@ -188,6 +192,7 @@ a:hover {
   ul {
     list-style: none;
     margin-bottom: 0;
+    padding-left: 0;
     .contact-icons {
       align-items: center;
     }
