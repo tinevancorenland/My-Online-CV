@@ -149,6 +149,18 @@ a:hover {
   border-radius: 10px;
 }
 
+.fixed a i {
+  position: fixed;
+  bottom: 4%;
+  right: 2%;
+  padding: 2px;
+  color: #0000ff;
+  text-align: center;
+  border: 1px solid #0000ff;
+  border-radius: 5px;
+  background-color: #efdecd;
+}
+
 .page-footer {
   background-color: #efdecd;
   margin: 0;

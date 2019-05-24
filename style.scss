@@ -181,6 +181,24 @@ a:hover {
   }
 }
 
+// Back to top
+
+.fixed {
+  a {
+    i {
+      position: fixed;
+      bottom: 4%;
+      right: 2%;
+      padding: 2px;
+      color: $colorTineneonblue;
+      text-align: center;
+      border: 1px solid $colorTineneonblue;
+      border-radius: 5px;
+      background-color: $colorTinealmond;
+    }
+  }
+}
+
 // Footer
 .page-footer {
   background-color: $colorTinealmond;
