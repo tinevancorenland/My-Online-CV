@@ -38,6 +38,10 @@
         </li>
       </ul>
 
+      <button onclick="topFunction()" id="scrollBtn" title="top">
+        <i class="fas fa-caret-up"></i>
+      </button>
+
       <div class="row">
         <div class="col-md-6 col-sm-12">
           <div id="leftColumnFirstRow">
@@ -57,7 +61,7 @@
             </div>
             <!--row 1 column 1 nested row 1-->
             <div class="row">
-              <div id="picture" class="img-fluid text-center">
+              <div class="img-fluid text-center" id="picture">
                 <img
                   src="Assets/TinePeggy.jpg"
                   alt="Tine profielfoto"
@@ -70,7 +74,7 @@
             <!-- row 1 column 1 nested row 2-->
 
             <div class="row">
-              <div id="signature" class="img-fluid text-center">
+              <div class="img-fluid text-center" id="signature">
                 <img
                   src="Assets/HandtekeningWIT.png"
                   alt="handtekening"
@@ -211,10 +215,6 @@
     </div>
     <!--container-fluid: bootstrap grids require container, container-fluid removes all padding and margins-->
 
-    <div class="fixed">
-      <a href="#pagetop"><i class="fas fa-caret-up"></i></a>
-    </div>
-
     <div id="contact" class="text-center">
       <footer class="page-footer text-center">
         <ul class="contact-icons">
@@ -257,5 +257,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>

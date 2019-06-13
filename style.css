@@ -31,6 +31,27 @@ a:hover {
   opacity: 0.8;
 }
 
+#scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-family: "Inconsolata", "Roboto-Mono", monospace;
+  font-size: 2vw;
+  padding: 2%;
+  margin: 5%;
+  background-color: #efdecd;
+  color: #0000ff;
+  border: 1px solid #0000ff;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+#scrollBtn:hover {
+  opacity: 0.8;
+}
+
 .nav {
   margin-bottom: 3%;
 }
