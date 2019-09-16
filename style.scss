@@ -36,12 +36,12 @@ h6 {
   font-family: $fontHeader;
   color: $colorTineneonblue;
   text-align: left;
-  margin-bottom: 0%;
-  font-size: 120%;
+  margin-bottom: 0;
+  font-size: 26px;
 }
 
 .row {
-  margin-bottom: 2%;
+  margin-bottom: 10px;
 }
 
 a:hover {
@@ -52,11 +52,10 @@ a:hover {
 
 #name {
   font-family: $fontHeader;
-  font-size: 3vw;
-  padding: 2%;
-  margin: 5%;
-  margin-bottom: 1%;
-  width: 90%;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 15px;
   text-align: center;
   color: $colorTinelight;
   background-color: $colorTineneonblue;
@@ -84,12 +83,6 @@ a:hover {
 
   &:hover {
     opacity: 0.8;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  a.nav-link {
-    font-size: 30px;
   }
 }
 
