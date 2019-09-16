@@ -33,14 +33,13 @@ a:hover {
 
 #name {
   font-family: "Inconsolata", "Roboto-Mono", monospace;
-  font-size: 30px;
+  font-size: 26px;
   padding: 10px;
   margin: 0;
   margin-bottom: 15px;
   text-align: center;
   color: #fffff0;
   background-color: #0000ff;
-  text-decoration: none;
 }
 
 #scrollBtn {
@@ -50,14 +49,12 @@ a:hover {
   right: 30px;
   z-index: 99;
   font-family: "Inconsolata", "Roboto-Mono", monospace;
-  font-size: 2vw;
-  padding: 2%;
-  margin: 2%;
+  font-size: 20px;
+  padding: 1px 6px;
   background-color: #efdecd;
   color: #0000ff;
   border: 1px solid #0000ff;
   border-radius: 15px;
-  text-decoration: none;
 }
 
 #scrollBtn:hover {
@@ -65,16 +62,14 @@ a:hover {
 }
 
 #leftColumnFirstRow {
-  padding: 5%;
-  margin-bottom: 2%;
+  padding: 15px;
+  margin-bottom: 10px;
   background-color: #efdecd;
   color: #0000ff;
   border-radius: 10px;
 }
 
 #statement {
-  padding-left: 1%;
-  padding-right: 1%;
   text-align: center;
   z-index: 1;
 }
@@ -92,54 +87,25 @@ a:hover {
 }
 
 #experience h3 {
-  color: #0000ff;
-  text-align: left;
-  font-size: 130%;
   border-bottom: 1px solid #0000ff;
-  margin-bottom: 1%;
+  margin-bottom: 10px;
 }
 
-#experience h4 {
-  color: #0000ff;
-  text-align: left;
-  margin-bottom: 0%;
-  font-size: 120%;
-}
-
-#experience h5 {
-  color: #0000ff;
-  text-align: left;
-  margin-bottom: 0%;
-  font-size: 120%;
-}
-
-#experience h6 {
-  color: #0000ff;
-  text-align: left;
-  margin-bottom: 0%;
-  font-size: 100%;
+#experience h4, #experience h5, #experience h6 {
+  font-size: 18px;
 }
 
 #experience p {
   text-align: justify;
-  margin-bottom: 4%;
-}
-
-#experience p .fab {
-  text-align: left;
+  margin-bottom: 10px;
 }
 
 #work h3 {
-  color: #0000ff;
-  text-align: left;
-  font-size: 130%;
   border-bottom: 1px solid #0000ff;
-  margin-bottom: 1%;
 }
 
 .card {
-  margin: 2%;
-  padding: 1%;
+  margin: 10px 0;
   border: 1px solid #0000ff;
 }
 
@@ -148,11 +114,12 @@ a:hover {
 }
 
 .card h4 {
+  font-size: 20px;
   text-align: center;
 }
 
 .card a {
-  padding: 1.5% 40%;
+  padding: 5px 60px;
   background-color: #0000ff;
   text-align: center;
   font-size: 12px;
