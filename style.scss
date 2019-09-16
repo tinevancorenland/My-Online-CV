@@ -141,8 +141,9 @@ a:hover {
 }
 
 .card {
-  margin: 20px;
-  border: px solid $colorTineneonblue;
+  margin: 10px;
+  border: 1px solid $colorTineneonblue;
+  
   .card-body {
     background-color: $colorTinealmond;
   }
@@ -151,7 +152,8 @@ a:hover {
     text-align: center;
   }
   a {
-    padding: 5px 60px;
+    display: inline-block;
+    padding: 2% 40%;
     background-color: $colorTineneonblue;
     text-align: center;
     font-size: 12px;

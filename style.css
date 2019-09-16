@@ -106,8 +106,8 @@ a:hover {
 }
 
 .card {
-  margin: 20px;
-  border: px solid #0000ff;
+  margin: 10px;
+  border: 1px solid #0000ff;
 }
 
 .card .card-body {
@@ -120,7 +120,8 @@ a:hover {
 }
 
 .card a {
-  padding: 5px 60px;
+  display: inline-block;
+  padding: 2% 40%;
   background-color: #0000ff;
   text-align: center;
   font-size: 12px;
