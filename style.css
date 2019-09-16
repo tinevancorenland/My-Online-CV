@@ -31,6 +31,19 @@ a:hover {
   opacity: 0.8;
 }
 
+#name {
+  font-family: "Inconsolata", "Roboto-Mono", monospace;
+  font-size: 3vw;
+  padding: 2%;
+  margin: 5%;
+  margin-bottom: 1%;
+  width: 90%;
+  text-align: center;
+  color: #fffff0;
+  background-color: #0000ff;
+  text-decoration: none;
+}
+
 #scrollBtn {
   display: none;
   position: fixed;
@@ -40,7 +53,7 @@ a:hover {
   font-family: "Inconsolata", "Roboto-Mono", monospace;
   font-size: 2vw;
   padding: 2%;
-  margin: 5%;
+  margin: 2%;
   background-color: #efdecd;
   color: #0000ff;
   border: 1px solid #0000ff;
@@ -49,24 +62,6 @@ a:hover {
 }
 
 #scrollBtn:hover {
-  opacity: 0.8;
-}
-
-.nav {
-  margin-bottom: 3%;
-}
-
-.nav a {
-  font-family: "Inconsolata", "Roboto-Mono", monospace;
-  font-size: 3vw;
-  padding: 2%;
-  margin: 5%;
-  color: #fffff0;
-  background-color: #0000ff;
-  text-decoration: none;
-}
-
-.nav a:hover {
   opacity: 0.8;
 }
 

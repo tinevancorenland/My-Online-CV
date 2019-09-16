@@ -48,6 +48,22 @@ a:hover {
   opacity: 0.8;
 }
 
+// name
+
+#name {
+  font-family: $fontHeader;
+  font-size: 3vw;
+  padding: 2%;
+  margin: 5%;
+  margin-bottom: 1%;
+  width: 90%;
+  text-align: center;
+  color: $colorTinelight;
+  background-color: $colorTineneonblue;
+  text-decoration: none;
+}
+
+
 // Scroll to top btn
 
 #scrollBtn {
@@ -59,7 +75,7 @@ a:hover {
   font-family: $fontHeader;
   font-size: 2vw;
   padding: 2%;
-  margin: 5%;
+  margin: 2%;
   background-color: $colorTinealmond;
   color: $colorTineneonblue;
   border: 1px solid $colorTineneonblue;
@@ -68,26 +84,6 @@ a:hover {
 
   &:hover {
     opacity: 0.8;
-  }
-}
-
-// Nav
-
-.nav {
-  margin-bottom: 3%;
-
-  a {
-    font-family: $fontHeader;
-    font-size: 3vw;
-    padding: 2%;
-    margin: 5%;
-    color: $colorTinelight;
-    background-color: $colorTineneonblue;
-    text-decoration: none;
-
-    &:hover {
-      opacity: 0.8;
-    }
   }
 }
 
