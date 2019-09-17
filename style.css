@@ -42,6 +42,14 @@ a:hover {
   background-color: #0000ff;
 }
 
+#name p {
+  margin-bottom: 0;
+}
+
+#name #quote {
+  font-size: 10px;
+}
+
 #scrollBtn {
   display: none;
   position: fixed;

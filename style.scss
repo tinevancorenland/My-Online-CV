@@ -59,7 +59,15 @@ a:hover {
   text-align: center;
   color: $colorTinelight;
   background-color: $colorTineneonblue;
+  p {
+    margin-bottom: 0;
+  }
+  #quote{
+    font-size: 10px;
+  }
 }
+
+
 
 // Scroll to top btn
 
